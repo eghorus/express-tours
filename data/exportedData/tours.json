@@ -1,0 +1,1325 @@
+[{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e8785"
+  },
+  "name": "The Sea Explorer",
+  "durationDays": 7,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1624093200000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1626771600000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1629277200000"
+      }
+    }
+  ],
+  "maxGroupSize": 15,
+  "difficulty": "medium",
+  "ratingsAverage": 4.8,
+  "ratingsQuantity": 6,
+  "price": 497,
+  "discount": 0,
+  "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
+  "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "imageCover": "tour-2-cover.jpg",
+  "images": [
+    "tour-2-1.jpg",
+    "tour-2-2.jpg",
+    "tour-2-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b5eea1a90f2e678d369"
+    },
+    {
+      "$oid": "63ba5ae2a218d49c07bc7c20"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -80.128473,
+      25.781842
+    ],
+    "description": "Lummus Park Beach",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809925"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809925"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -80.128473,
+        25.781842
+      ],
+      "description": "Lummus Park Beach",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8786"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809925"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809925"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -80.647885,
+        24.909047
+      ],
+      "description": "Islamorada",
+      "day": 2,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8787"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -81.0784,
+        24.707496
+      ],
+      "description": "Sombrero Beach",
+      "day": 3,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8788"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -81.768719,
+        24.552242
+      ],
+      "description": "West Key",
+      "day": 5,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8789"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      }
+    }
+  ],
+  "slug": "the-sea-explorer",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e878a"
+  },
+  "name": "The Forest Hiker",
+  "durationDays": 5,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1619341200000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1626771600000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1633424400000"
+      }
+    }
+  ],
+  "maxGroupSize": 25,
+  "difficulty": "easy",
+  "ratingsAverage": 5,
+  "ratingsQuantity": 9,
+  "price": 397,
+  "discount": 0,
+  "summary": "Breathtaking hike through the Canadian Banff National Park",
+  "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "imageCover": "tour-1-cover.jpg",
+  "images": [
+    "tour-1-1.jpg",
+    "tour-1-2.jpg",
+    "tour-1-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b2923c1f2ec5f3bc5c4"
+    },
+    {
+      "$oid": "63ba5aeaa218d49c07bc7c22"
+    },
+    {
+      "$oid": "63ba5a64a218d49c07bc7c1e"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -116.214531,
+      51.417611
+    ],
+    "description": "Banff National Park",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809926"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809926"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -116.214531,
+        51.417611
+      ],
+      "description": "Banff National Park",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e878b"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -118.076152,
+        52.875223
+      ],
+      "description": "Jasper National Park",
+      "day": 3,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e878c"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -117.490309,
+        51.261937
+      ],
+      "description": "Glacier National Park of Canada",
+      "day": 5,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e878d"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809926"
+        }
+      }
+    }
+  ],
+  "slug": "the-forest-hiker",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e8796"
+  },
+  "name": "The City Wanderer",
+  "durationDays": 9,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1615456800000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1619946000000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1623229200000"
+      }
+    }
+  ],
+  "maxGroupSize": 20,
+  "difficulty": "easy",
+  "ratingsAverage": 4.6,
+  "ratingsQuantity": 5,
+  "price": 1197,
+  "discount": 0,
+  "summary": "Living the life of Wanderlust in the US' most beatiful cities",
+  "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
+  "imageCover": "tour-4-cover.jpg",
+  "images": [
+    "tour-4-1.jpg",
+    "tour-4-2.jpg",
+    "tour-4-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b5eea1a90f2e678d369"
+    },
+    {
+      "$oid": "63ba5aeaa218d49c07bc7c22"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -73.967696,
+      40.781821
+    ],
+    "description": "New York",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809927"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809927"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -73.967696,
+        40.781821
+      ],
+      "description": "New York",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8797"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -118.324396,
+        34.097984
+      ],
+      "description": "Los Angeles",
+      "day": 3,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8798"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809928"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809928"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -122.408865,
+        37.787825
+      ],
+      "description": "San Francisco",
+      "day": 5,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8799"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809928"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809928"
+        }
+      }
+    }
+  ],
+  "slug": "the-city-wanderer",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e879a"
+  },
+  "name": "The Sports Lover",
+  "durationDays": 14,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1626685200000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1630918800000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1647597600000"
+      }
+    }
+  ],
+  "maxGroupSize": 8,
+  "difficulty": "difficult",
+  "ratingsAverage": 3.9,
+  "ratingsQuantity": 7,
+  "price": 2997,
+  "discount": 0,
+  "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour",
+  "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
+  "imageCover": "tour-6-cover.jpg",
+  "images": [
+    "tour-6-1.jpg",
+    "tour-6-2.jpg",
+    "tour-6-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b5eea1a90f2e678d368"
+    },
+    {
+      "$oid": "63ba5a64a218d49c07bc7c1e"
+    },
+    {
+      "$oid": "63ba5ae2a218d49c07bc7c20"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -118.809361,
+      34.003098
+    ],
+    "description": "Point Dume Beach",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809928"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809928"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -118.809361,
+        34.003098
+      ],
+      "description": "Point Dume Beach",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e879b"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809928"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809928"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -118.47549,
+        33.987367
+      ],
+      "description": "Venice Skate Park",
+      "day": 4,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e879c"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -116.830104,
+        33.022843
+      ],
+      "description": "San Diego Skydive",
+      "day": 6,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e879d"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -118.4547,
+        35.710359
+      ],
+      "description": "Kern River Rafting",
+      "day": 7,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e879e"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -119.600492,
+        37.742371
+      ],
+      "description": "Yosemite National Park",
+      "day": 10,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e879f"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    }
+  ],
+  "slug": "the-sports-lover",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e87a0"
+  },
+  "name": "The Star Gazer",
+  "durationDays": 9,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1616493600000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1635152400000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1643536800000"
+      }
+    }
+  ],
+  "maxGroupSize": 8,
+  "difficulty": "medium",
+  "ratingsAverage": 4.8,
+  "ratingsQuantity": 6,
+  "price": 2997,
+  "discount": 0,
+  "summary": "The most remote and stunningly beautiful places for seeing the night sky",
+  "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "imageCover": "tour-8-cover.jpg",
+  "images": [
+    "tour-8-1.jpg",
+    "tour-8-2.jpg",
+    "tour-8-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b2923c1f2ec5f3bc5c4"
+    },
+    {
+      "$oid": "63ba5a64a218d49c07bc7c1e"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -109.99953,
+      37.629017
+    ],
+    "description": "Natural Bridges National Monument",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809929"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809929"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -109.99953,
+        37.629017
+      ],
+      "description": "Natural Bridges National Monument",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e87a1"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -111.50954,
+        36.883269
+      ],
+      "description": "Horseshoe Bend",
+      "day": 3,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e87a2"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -117.07399,
+        36.501435
+      ],
+      "description": "Death Valley National Park",
+      "day": 6,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e87a3"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    }
+  ],
+  "slug": "the-star-gazer",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673323225466"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e87a4"
+  },
+  "name": "The Northern Lights",
+  "durationDays": 3,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1639648800000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1642327200000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1670839200000"
+      }
+    }
+  ],
+  "maxGroupSize": 12,
+  "difficulty": "easy",
+  "ratingsAverage": 4.7,
+  "ratingsQuantity": 7,
+  "price": 1497,
+  "discount": 0,
+  "summary": "Enjoy the Northern Lights in one of the best places in the world",
+  "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+  "imageCover": "tour-9-cover.jpg",
+  "images": [
+    "tour-9-1.jpg",
+    "tour-9-2.jpg",
+    "tour-9-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b5eea1a90f2e678d368"
+    },
+    {
+      "$oid": "63ba5aeaa218d49c07bc7c22"
+    },
+    {
+      "$oid": "63ba5b5eea1a90f2e678d36a"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -114.406097,
+      62.439943
+    ],
+    "description": "Yellowknife",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809929"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809929"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -114.406097,
+        62.439943
+      ],
+      "description": "Yellowknife",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e87a5"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    }
+  ],
+  "slug": "the-northern-lights",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e87a6"
+  },
+  "name": "The Wine Taster",
+  "durationDays": 5,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1613124000000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1618390800000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1630486800000"
+      }
+    }
+  ],
+  "maxGroupSize": 8,
+  "difficulty": "easy",
+  "ratingsAverage": 4.4,
+  "ratingsQuantity": 7,
+  "price": 1997,
+  "discount": 0,
+  "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
+  "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "imageCover": "tour-7-cover.jpg",
+  "images": [
+    "tour-7-1.jpg",
+    "tour-7-2.jpg",
+    "tour-7-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b5eea1a90f2e678d369"
+    },
+    {
+      "$oid": "63ba5b5eea1a90f2e678d36a"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -122.479887,
+      38.510312
+    ],
+    "description": "Beringer Vineyards",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809929"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809929"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -122.479887,
+        38.510312
+      ],
+      "description": "Beringer Vineyards",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e87a7"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -122.582948,
+        38.585707
+      ],
+      "description": "Clos Pegase Winery & Tasting Room",
+      "day": 3,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e87a8"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -122.434697,
+        38.482181
+      ],
+      "description": "Raymond Vineyard and Cellar",
+      "day": 5,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e87a9"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809929"
+        }
+      }
+    }
+  ],
+  "slug": "the-wine-taster",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809936"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e878e"
+  },
+  "name": "The Snow Adventurer",
+  "durationDays": 4,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1641376800000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1644660000000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1672999200000"
+      }
+    }
+  ],
+  "maxGroupSize": 10,
+  "difficulty": "difficult",
+  "ratingsAverage": 4.5,
+  "ratingsQuantity": 6,
+  "price": 997,
+  "discount": 0,
+  "summary": "Exciting adventure in the snow with snowboarding and skiing",
+  "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+  "imageCover": "tour-3-cover.jpg",
+  "images": [
+    "tour-3-1.jpg",
+    "tour-3-2.jpg",
+    "tour-3-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b2923c1f2ec5f3bc5c4"
+    },
+    {
+      "$oid": "63ba5b5eea1a90f2e678d36a"
+    },
+    {
+      "$oid": "63ba5ae2a218d49c07bc7c20"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -106.855385,
+      39.182677
+    ],
+    "description": "Aspen Highlands",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809927"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809927"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -106.855385,
+        39.182677
+      ],
+      "description": "Aspen Highlands",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e878f"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -106.516623,
+        39.60499
+      ],
+      "description": "Beaver Creek",
+      "day": 2,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8790"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      }
+    }
+  ],
+  "slug": "the-snow-adventurer",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ba6481b6c85835ce3e8791"
+  },
+  "name": "The Park Camper",
+  "durationDays": 10,
+  "startDates": [
+    {
+      "$date": {
+        "$numberLong": "1628154000000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1647770400000"
+      }
+    },
+    {
+      "$date": {
+        "$numberLong": "1660294800000"
+      }
+    }
+  ],
+  "maxGroupSize": 15,
+  "difficulty": "medium",
+  "ratingsAverage": 4.7,
+  "ratingsQuantity": 7,
+  "price": 1497,
+  "discount": 0,
+  "summary": "Breathing in Nature in America's most spectacular National Parks",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
+  "imageCover": "tour-5-cover.jpg",
+  "images": [
+    "tour-5-1.jpg",
+    "tour-5-2.jpg",
+    "tour-5-3.jpg"
+  ],
+  "guides": [
+    {
+      "$oid": "63ba5b5eea1a90f2e678d368"
+    },
+    {
+      "$oid": "63ba5b5eea1a90f2e678d36a"
+    },
+    {
+      "$oid": "63ba5aeaa218d49c07bc7c22"
+    }
+  ],
+  "startLocation": {
+    "type": "Point",
+    "coordinates": [
+      -112.987418,
+      37.198125
+    ],
+    "description": "Zion Canyon National Park",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1673159809927"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1673159809927"
+      }
+    }
+  },
+  "locations": [
+    {
+      "type": "Point",
+      "coordinates": [
+        -112.987418,
+        37.198125
+      ],
+      "description": "Zion Canyon National Park",
+      "day": 1,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8792"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -111.376161,
+        36.86438
+      ],
+      "description": "Antelope Canyon",
+      "day": 4,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8793"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -112.115763,
+        36.058973
+      ],
+      "description": "Grand Canyon National Park",
+      "day": 5,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8794"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      }
+    },
+    {
+      "type": "Point",
+      "coordinates": [
+        -116.107963,
+        34.011646
+      ],
+      "description": "Joshua Tree National Park",
+      "day": 9,
+      "_id": {
+        "$oid": "63ba6481b6c85835ce3e8795"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1673159809927"
+        }
+      }
+    }
+  ],
+  "slug": "the-park-camper",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1673159809935"
+    }
+  },
+  "__v": 0
+}]

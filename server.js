@@ -1,8 +1,14 @@
-if (process.env.NODE_ENV !== "production") require("dotenv").config();
-const express = require("express");
 const mongoose = require("mongoose");
 
-const app = express();
+/* Handle synchronous uncaughtException errors */
+/* This event should be registered before any other code */
+process.on("uncaughtException", function (err) {
+  console.log("🛑 uncaughtException:\n", err);
+  process.exit(1);
+});
+
+if (process.env.NODE_ENV !== "production") require("dotenv").config();
+const app = require("./app");
 
 mongoose.set("strictQuery", false);
 
@@ -13,10 +19,20 @@ const connectToDb = async () => {
     const connection = await mongoose.connect(mongodbConnUri);
     console.log(`Connected to ${connection.connections[0].name} database.`);
   } catch (error) {
-    console.log("Error connecting to database.", "\n", error);
+    /* This error is occurred outside the express application so it can be handled here or by the unhandledRejection handler */
+    console.log("🛑 Error connecting to database.", "\n", error);
+    server.close(() => process.exit(1));
   }
 };
 
 connectToDb();
 
-app.listen(process.env.PORT, () => console.log(`Server started and listening on port ${process.env.PORT}.`));
+const server = app.listen(process.env.PORT, () =>
+  console.log(`Server started and listening on port ${process.env.PORT}.`)
+);
+
+/* Handle asynchronous unhandledRejection errors */
+process.on("unhandledRejection", function (err) {
+  console.log("🛑 unhandledRejection:\n", err);
+  server.close(() => process.exit(1));
+});
