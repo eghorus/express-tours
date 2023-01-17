@@ -132,7 +132,7 @@ const authenticateUser = async (req, res, next) => {
 
     res.status(200).json({
       status: "Success",
-      data: { user, accessToken }, // TODO: remove access token and use cookie authentication only
+      data: { user, accessToken },
     });
   } catch (error) {
     next(error);
@@ -156,8 +156,7 @@ const forgotPassword = async (req, res, next) => {
     user.passwordChange.resetTokenExpiresIn = Date.now() + 10 * 60 * 1000;
 
     const passwordResetServerUrl = `${req.protocol}://${req.get("host")}/api/v1/users/resetpassword/${resetToken}`;
-    // TODO: add after identifing the client url
-    // const passwordResetClientUrl = `${process.env.CLIENT_HOST}/users/resetpassword/${resetToken}`;
+    const passwordResetClientUrl = `${process.env.CLIENT_HOST}/users/resetpassword/${resetToken}`;
 
     await sendEmail({
       to: user.email,

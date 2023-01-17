@@ -4,9 +4,12 @@ const { verifyJwtToken } = require("../utils/jwt-utils");
 
 const checkAuthentication = async (req, res, next) => {
   try {
+    /* Access token is sent from: 1. headers in case of REST API - 2. cookies mostly in case of SSR */
     const accessToken =
       req.headers.authorization && req.headers.authorization.startsWith("Bearer")
         ? req.headers.authorization.split(" ")[1]
+        : req.cookies.jwt
+        ? req.cookies.accessToken
         : null;
     if (!accessToken) {
       return next(new OpError(401, "No access token is sent with the request. Please sign in."));

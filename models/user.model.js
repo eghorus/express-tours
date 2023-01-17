@@ -32,7 +32,6 @@ const userSchema = new mongoose.Schema({
   },
   imagePath: {
     type: String,
-    // TODO: to be added
     default: "",
   },
   password: {

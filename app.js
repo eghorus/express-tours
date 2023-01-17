@@ -1,5 +1,6 @@
 const path = require("path");
 const express = require("express");
+var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 const usersRouter = require("./routers/users.router");
@@ -21,6 +22,7 @@ const limiter = rateLimit({
 });
 app.use("/api", limiter);
 app.use(express.json({ limit: "2MB" }));
+app.use(cookieParser());
 app.use(sanitizeMongoQuery);
 app.use("/", viewsRouter);
 app.use("/api/v1/users", usersRouter);
