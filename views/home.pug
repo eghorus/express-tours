@@ -1,0 +1,8 @@
+extends layout/layout
+include _tour-card
+
+block main
+    .main
+        .tours-container
+            each tour in tours
+                +tourcard(tour.name, tour.durationDays, tour.maxGroupSize, tour.difficulty, tour.ratingsAverage, tour.ratingsQuantity, tour.price, tour.discount, tour.summary, tour.description, tour.imageCover, tour.startLocation, tour.startDates, tour.locations, tour.slug)
